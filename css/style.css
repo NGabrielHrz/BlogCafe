@@ -46,11 +46,59 @@ img {
     max-width: 100%;
 }
 .no-margin {
-    margin: 0!important;
+    margin: 0;
 }
 .no-padding {
-    padding: 0!important;
+    padding: 0;
 }
 .centrar-text {
     text-align: center;
+}
+
+/* HEADER */
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+.header__texto {
+    text-align: center;
+    color: var(--withe);
+    margin-top: 3rem;
+}
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 10rem;
+    }
+}
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo {
+    color: var(--withe);
+}
+.logo__nombre {
+    font-weight: 400;
+}
+.logo__bold {
+    font-weight: 700;
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--withe);
+}
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
 }

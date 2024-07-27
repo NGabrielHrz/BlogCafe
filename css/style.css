@@ -23,6 +23,7 @@ body {
 .contenedor {
     max-width: 120rem;
     width: 90%;
+    /* width: min(90%, 120rem); Es equivalente a los dos de arriba*/
     margin: 0 auto;
 }
 a {
@@ -75,6 +76,9 @@ img {
     .header__texto {
         margin-top: 10rem;
     }
+}
+.barra {
+    padding: 5rem;
 }
 @media (min-width: 768px) {
     .barra {
@@ -162,4 +166,9 @@ img {
 .widget-curso__info,
 .widget-curso__label {
     font-size: 2rem;
+}
+.footer {
+    background-color: var(--black);
+    /* padding: 3rem 0; */
+    margin-top: 4rem;
 }
